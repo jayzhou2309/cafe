@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Montra Coffee — Specialty Coffee · Telok Ayer, Singapore</title>
+  <meta name="description" content="Montra Coffee is a specialty third-wave coffee café in Telok Ayer, Singapore. Single-origin pour overs, seasonal espresso drinks, and spaces made for lingering." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">Montra</a>
+      <ul class="nav__links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#atmosphere">Atmosphere</a></li>
+        <li><a href="#visit">Visit</a></li>
+      </ul>
+      <a href="#visit" class="nav__cta">Find Us</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <ul>
+        <li><a href="#menu" class="mobile-link">Menu</a></li>
+        <li><a href="#story" class="mobile-link">Story</a></li>
+        <li><a href="#atmosphere" class="mobile-link">Atmosphere</a></li>
+        <li><a href="#visit" class="mobile-link">Visit</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__noise"></div>
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        Now Open · Telok Ayer, Singapore
+      </div>
+      <h1 class="hero__headline">
+        Where Every Cup<br />
+        <em>Tells a Story</em>
+      </h1>
+      <p class="hero__sub">
+        Specialty coffee, slow mornings,<br />
+        and spaces made for lingering.
+      </p>
+      <div class="hero__actions">
+        <a href="#menu" class="btn btn--filled">View Our Menu</a>
+        <a href="#visit" class="btn btn--ghost">Find Us</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT / BRAND STORY -->
+  <section class="story" id="story">
+    <div class="story__inner container">
+      <div class="story__left reveal">
+        <div class="story__stat">
+          <span class="story__stat-line">Est. 2021</span>
+          <span class="story__stat-line story__stat-line--accent">3 Origins</span>
+          <span class="story__stat-line">1 Obsession</span>
+        </div>
+        <div class="story__rule"></div>
+      </div>
+      <div class="story__right reveal reveal--delay">
+        <span class="story__eyebrow">Our Story</span>
+        <h2 class="story__heading">Coffee is a<br /><em>conversation</em>,<br />not a transaction.</h2>
+        <p class="story__body">
+          Montra started with a single question: what does it feel like to be truly unhurried?
+          We built this space in the heart of Telok Ayer as an answer — a place where
+          the sourcing matters, the extraction is deliberate, and the cup in your hands
+          carries the whole journey from farm to counter.
+        </p>
+        <p class="story__body">
+          We work directly with small producers in Ethiopia, Colombia, and Taiwan,
+          rotating our offerings with the harvest seasons. No shortcuts. No rush.
+        </p>
+        <a href="#menu" class="story__link">Explore the menu →</a>
+      </div>
+    </div>
+    <div class="story__deco" aria-hidden="true"></div>
+  </section>
+
+  <!-- MENU HIGHLIGHTS -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Crafted Daily</span>
+        <h2 class="section-title">What We Brew</h2>
+        <p class="section-sub">Every item on our menu is designed around one principle — it has to be worth slowing down for.</p>
+      </div>
+      <div class="menu__grid">
+
+        <div class="menu-card reveal">
+          <div class="menu-card__image menu-card__image--1"></div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Oat Flat White</h3>
+              <span class="menu-card__price">S$7</span>
+            </div>
+            <p class="menu-card__desc">Silky microfoam, our house espresso blend, and cold-pressed oat milk in perfect ratio. A daily ritual.</p>
+            <span class="menu-card__tag">Espresso</span>
+          </div>
+        </div>
+
+        <div class="menu-card reveal reveal--delay">
+          <div class="menu-card__image menu-card__image--2"></div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Cold Brew Tonic</h3>
+              <span class="menu-card__price">S$9</span>
+            </div>
+            <p class="menu-card__desc">18-hour cold-steeped Yirgacheffe over premium tonic water, finished with a curl of orange peel.</p>
+            <span class="menu-card__tag">Cold</span>
+          </div>
+        </div>
+
+        <div class="menu-card reveal reveal--delay-2">
+          <div class="menu-card__image menu-card__image--3"></div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Matcha Latte</h3>
+              <span class="menu-card__price">S$8</span>
+            </div>
+            <p class="menu-card__desc">Ceremonial-grade Uji matcha whisked with steamed oat milk. Earthy, smooth, and grounding.</p>
+            <span class="menu-card__tag">Non-Coffee</span>
+          </div>
+        </div>
+
+        <div class="menu-card reveal">
+          <div class="menu-card__image menu-card__image--4"></div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Signature Pour Over</h3>
+              <span class="menu-card__price">S$12</span>
+            </div>
+            <p class="menu-card__desc">Single-origin, rotating weekly. Ask us what's on the bar today — we love this conversation.</p>
+            <span class="menu-card__tag">Pour Over</span>
+          </div>
+        </div>
+
+        <div class="menu-card reveal reveal--delay">
+          <div class="menu-card__image menu-card__image--5"></div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Butter Croissant</h3>
+              <span class="menu-card__price">S$6</span>
+            </div>
+            <p class="menu-card__desc">Laminated fresh each morning by our in-house pastry team. Shatteringly crisp, impossibly soft within.</p>
+            <span class="menu-card__tag">Pastry</span>
+          </div>
+        </div>
+
+        <div class="menu-card reveal reveal--delay-2">
+          <div class="menu-card__image menu-card__image--6"></div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Banana Loaf</h3>
+              <span class="menu-card__price">S$6</span>
+            </div>
+            <p class="menu-card__desc">Brown butter, caramelised banana, a hint of cardamom. Baked in small batches, gone by noon.</p>
+            <span class="menu-card__tag">Pastry</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="menu__footer reveal">
+        <p>Full menu available in-store and on request.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATMOSPHERE / GALLERY -->
+  <section class="atmosphere" id="atmosphere">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">The Space</span>
+        <h2 class="section-title">Come As You Are</h2>
+        <p class="section-sub">A corner of Telok Ayer built for the unhurried. Bring your work, your words, or just yourself.</p>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="gallery__item gallery__item--tall reveal">
+        <div class="gallery__img gallery__img--1"></div>
+        <div class="gallery__caption">Morning light, Amoy Street</div>
+      </div>
+      <div class="gallery__item reveal reveal--delay">
+        <div class="gallery__img gallery__img--2"></div>
+      </div>
+      <div class="gallery__item reveal reveal--delay">
+        <div class="gallery__img gallery__img--3"></div>
+        <div class="gallery__caption">The bar, 7:58am</div>
+      </div>
+      <div class="gallery__item gallery__item--wide reveal reveal--delay-2">
+        <div class="gallery__img gallery__img--4"></div>
+      </div>
+      <div class="gallery__item reveal reveal--delay-2">
+        <div class="gallery__img gallery__img--5"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIT -->
+  <section class="visit" id="visit">
+    <div class="visit__inner container">
+      <div class="visit__left reveal">
+        <span class="section-eyebrow">Plan Your Visit</span>
+        <h2 class="visit__heading">We're easy<br />to <em>find</em>,<br />hard to leave.</h2>
+        <div class="visit__info">
+          <div class="visit__info-item">
+            <div class="visit__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <div>
+              <p class="visit__label">Location</p>
+              <p class="visit__value">12 Amoy Street<br />Telok Ayer, Singapore 049949</p>
+            </div>
+          </div>
+          <div class="visit__info-item">
+            <div class="visit__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <p class="visit__label">Hours</p>
+              <p class="visit__value">Mon – Fri &nbsp; 8am – 6pm<br />Sat – Sun &nbsp; 9am – 5pm</p>
+            </div>
+          </div>
+          <div class="visit__info-item">
+            <div class="visit__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <div>
+              <p class="visit__label">Instagram</p>
+              <p class="visit__value"><a href="#" class="visit__ig">@montracoffee</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="visit__right reveal reveal--delay">
+        <div class="visit__map">
+          <div class="visit__map-inner">
+            <div class="visit__map-grid"></div>
+            <div class="visit__map-pin">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <div class="visit__map-label">Montra Coffee<br /><small>12 Amoy Street</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner container">
+      <div class="footer__brand">
+        <span class="footer__logo">Montra</span>
+        <p class="footer__tagline">Coffee worth the detour.</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="#menu">Menu</a>
+        <a href="#story">Story</a>
+        <a href="#visit">Visit</a>
+        <a href="#">Instagram</a>
+      </nav>
+      <p class="footer__copy">© 2025 Montra Coffee. Crafted with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
