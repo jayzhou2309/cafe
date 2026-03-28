@@ -585,24 +585,36 @@ ul { list-style: none; }
   transform: scale(1.03);
 }
 
-/* Card image gradients */
+/* Card images */
 .menu-card__image--1 {
-  background: linear-gradient(135deg, #3b2010 0%, #6b3a1f 40%, #4a2510 100%);
+  background-image: url('pexels-snappr-29849772.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .menu-card__image--2 {
-  background: linear-gradient(135deg, #1a2a1a 0%, #2a4020 40%, #1e3018 100%);
+  background-image: url('pexels-syd-trgt-335495720-29304794.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .menu-card__image--3 {
-  background: linear-gradient(135deg, #1a2a1a 0%, #3a5a30 50%, #2a4828 100%);
+  background-image: url('matcha latte.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .menu-card__image--4 {
-  background: linear-gradient(135deg, #3a2810 0%, #7a5020 40%, #5a3815 100%);
+  background-image: url('pour over.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .menu-card__image--5 {
-  background: linear-gradient(135deg, #3a2810 0%, #c8a060 50%, #8a5820 100%);
+  background-image: url('butter cros.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .menu-card__image--6 {
-  background: linear-gradient(135deg, #4a3018 0%, #a87040 50%, #6a4020 100%);
+  background-image: url('banana loaf.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .menu-card__body {
@@ -708,27 +720,27 @@ ul { list-style: none; }
 }
 
 .gallery__img--1 {
-  background-image: url('images.jpeg');
+  background-image: url('pexels-zeynep-merve-kilic-cakir-76946886-34889845.jpg');
   background-size: cover;
   background-position: center;
 }
 .gallery__img--2 {
-  background-image: url('images-2.jpeg');
+  background-image: url('pexels-kemal-kartal-575424602-33261316.jpg');
   background-size: cover;
   background-position: center;
 }
 .gallery__img--3 {
-  background-image: url('images-3.jpeg');
+  background-image: url('pexels-fromsalih-29525876.jpg');
   background-size: cover;
   background-position: center;
 }
 .gallery__img--4 {
-  background-image: url('images-4.jpeg');
+  background-image: url('pexels-bugra-ozcan-237904777-15947633.jpg');
   background-size: cover;
   background-position: center;
 }
 .gallery__img--5 {
-  background-image: url('images-5.jpeg');
+  background-image: url('pexels-nurunnur-30339533.jpg');
   background-size: cover;
   background-position: center;
 }
